@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "C:/Users/renji/OneDrive/Desktop/xxxxxx/testng-1.0.dtd">
+
+<suite name="Suite">
+
+<test thread-count="5" name="HomePageTestcases">
+    <classes>
+      <class name="com.CRM.Testcases.HomePageTestcases"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="loginPageTestcases">
+    <classes>
+      <class name="com.CRM.Testcases.LoginPageTestcases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
